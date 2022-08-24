@@ -1,0 +1,20 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 id="hello_world" class="display-4 text-color" onmouseover="newColor()" onmouseout="oldColor()">Visual Studio HTML Assignment</h1>
+    
+</div>
+
+<div class="vidButton">
+    <button onclick="videoAnimation()">Press for my favorite song!</button>
+</div>
+
+<div>
+    <iframe id="videoContainer" width="1237" height="696" src="https://www.youtube.com/embed/nlMYTD_pHBA" title="Drake ft. 21 Savage - Jimmy Cooks (Music Video)"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+</div>
